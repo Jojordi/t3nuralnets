@@ -50,3 +50,59 @@ En el caso de division por 0, se estima que implementando una sección con try c
 todo arbol conflictivo.
 
 
+**Resultados**
+
+Se presentan los resultados en orden de la progresión de las funciones de fitness de los distintos ejercicios.
+
+**Encontrar una secuencia que dé 65346:**
+Hubo éxito.
+ 
+FINDNUMBER 65346
+
+
+Goal value: 65346
+
+
+Obtained Sequence: 
+
+
+(((25 * 25) * (2 + 100)) + (((7 - 2) + max({(8 - 4), (100 - 100)})) + (((7 + 8) * (7 + 100)) - max({4, (25 - 7)}))))
+
+
+**Encontrar una secuencia que dé 65346 limitando el largo del arbol**
+
+FINDNUMBER
+
+
+Goal value: 65346
+
+
+Obtained Sequence: max({(100 * ((25 * 25) + (4 * 7))), 100})
+
+
+Obtained Value:65300
+
+
+**Encontrar una secuencia que de 65346, restringiendo los terminales**
+
+FINDNUMBER
+
+
+Goal value: 65346
+
+
+Obtained Sequence: (((25 * 25) + (8 - (7 - 2))) * (100 + 4))
+
+
+Obtained Value:65312
+
+
+
+
+![alt text](65346plot.png)
+
+![alt text](65346limitedplot.png)
+
+![alt text](65346restrictedplot.png)
+
+
